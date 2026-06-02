@@ -20,11 +20,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": ""
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "PARA EMPRESAS"
+    "description": "PARA EMPRESAS",
+    "extra": {
+      "eas": {
+        "projectId": "ba857857-b396-4386-8825-ce77109e0810"
+      }
+    }
   }
 }
